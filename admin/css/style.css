@@ -1,0 +1,43 @@
+
+.unvisable{
+/* background-color: rgb(224, 224, 224); */
+color: #aaaaaa;
+pointer-events: none;
+}
+.unvisable .btn-danger{
+    background-color: #aaaaaa;
+    border: 1px solid #aaaaaa;
+}
+.unvisable .btn-primary{
+    background-color: #aaaaaa;
+    border: 1px solid #aaaaaa;
+}
+
+.table{
+    color: #000;
+}
+.pagination a {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.pagination a:hover {
+    background-color: #0056b3;
+}
+
+.pagination span {
+    margin: 0 5px;
+}
+.dec-btn,
+.inc-btn{
+    cursor: pointer;
+}
+
+.btn-reg{
+    background-color: rgb(224, 210, 1);
+    color: #000;
+}
