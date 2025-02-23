@@ -16,4 +16,4 @@ extract($_POST);
 $insert = "INSERT INTO orders (user_id,username,email,phone,country,Address,city,total_price) VALUES('$user_id','$username','$email','$phone','$country','$address','$city','$total_price')";
 $query = $conn->query($insert);
 unset($_SESSION['total_price']);
-header("location:../../cart.php");
+header("location:del_cart_after_check.php");

@@ -182,8 +182,12 @@ if(isset($_SESSION['user_id'])){
                     </div>
                   </div>
                 </div>
+                <?php if(isset($_SESSION['user_id'])){ ?>
                 <div class="col-sm-3 pl-sm-0"><button class="btn btn-dark btn-sm btn-block h-100 d-flex align-items-center justify-content-center px-0" href="">Add to cart</button></div>
-                </form>
+                <?php }else{ ?>
+                  <div class="col-sm-3 pl-sm-0"><a class="btn btn-dark btn-sm btn-block h-100 d-flex align-items-center justify-content-center px-0" href="login.php">Add to cart</a></div>
+                  <?php } ?>
+              </form>
               </div><a class="btn btn-link text-dark p-0 mb-4" href="#"><i class="far fa-heart mr-2"></i>Add to wish list</a><br>
               <ul class="list-unstyled small d-inline-block">
                 <li class="px-3 py-2 mb-1 bg-white"><strong class="text-uppercase">SKU:</strong><span class="ml-2 text-muted">039</span></li>
