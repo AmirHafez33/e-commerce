@@ -24,3 +24,4 @@ extract($_POST);
 $update_cart = "UPDATE cart SET quantity = $qnt WHERE pro_id = $pro_id && user_id =$user_id ";
 $query_cart = $conn->query($update_cart);
 header("location:../../cart.php");
+// echo "test";

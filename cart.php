@@ -52,7 +52,7 @@ $total_price = 0 ;
     <!-- Favicon-->
     <link rel="shortcut icon" href="img/favicon.png">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
+    <script src="js/ajax.js"></script>
     <!-- Tweaks for older IEs--><!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
@@ -193,7 +193,7 @@ $total_price = 0 ;
                       <td class="align-middle border-0">
                         <div class="border d-flex align-items-center justify-content-between px-3"><span class="small text-uppercase text-gray headings-font-family">Quantity</span>
                         <form action="admin/database/update_cart.php?id=<?= $product['id'] ?>" method="post" data-proid="<?= $product['id'] ?>">
-                      <!-- <form data-id="<?= $product['id'] ?>"> -->
+                      
                         <div class="quantity" >
                             <button class="dec-btn p-0" data-id="<?= $product['id'] ?>"><i class="fas fa-caret-left"></i></button>
                             <input class="form-control form-control-sm border-0 shadow-0 p-0 qnt" type="text" name="qnt" value="<?= $cart['quantity'] ?>"/>
