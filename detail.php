@@ -11,7 +11,7 @@ if(isset($_SESSION['user_id'])){
   $user = $query_user->fetch_assoc();
 }
 ?>
-?>
+
 
 
 <!DOCTYPE html>
