@@ -10,7 +10,7 @@ if(isset($_SESSION['user_id'])){
   $query_user = $conn->query($select_user);
   $user = $query_user->fetch_assoc();
 }else{
-  header("location:user_register.php");
+  header("location:login.php");
 }
 $select_cart = "SELECT * FROM cart WHERE user_id = $user_id";
 $query_cart = $conn->query($select_cart);
