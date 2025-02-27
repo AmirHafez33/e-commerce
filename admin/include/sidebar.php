@@ -91,6 +91,7 @@
                 </div> -->
                 <a class="nav-link" href="admins.php">Admins</a>
                 <a class="nav-link" href="products.php">Products</a>
+                <a class="nav-link" href="orders.php">orders</a>
                 <a class="nav-link" href="login.php">Login</a>
 
                 <a class="nav-link" href="database/logout.php">Logout</a>
