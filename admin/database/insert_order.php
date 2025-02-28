@@ -13,7 +13,7 @@ if(isset($_SESSION['user_id'])){
 
 extract($_POST);
 
-$insert = "INSERT INTO orders (user_id,username,email,phone,country,Address,city,total_price) VALUES('$user_id','$username','$email','$phone','$country','$address','$city','$total_price')";
+$insert = "INSERT INTO orders (user_id,username,email,phone,country,Address,city,total_price,state) VALUES('$user_id','$username','$email','$phone','$country','$address','$city','$total_price','intransit')";
 $query = $conn->query($insert);
 unset($_SESSION['total_price']);
 header("location:del_cart_after_check.php");

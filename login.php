@@ -16,7 +16,7 @@ if (isset($_SESSION["user_id"])) {
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Login</title>
+    <title>User - Login</title>
 
     <!-- Custom fonts for this template-->
     <link href="admin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">

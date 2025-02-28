@@ -13,7 +13,7 @@ $insert = "INSERT INTO users (name,email,password)
 
 $query = $conn->query($insert);
 
-header("location:../../index.php");
+header("location:../../login.php");
 }else{
     $_SESSION['email_error'] = "<div class='alert alert-danger'>this email is not available</div>";
     header("location:../../user_register.php");
